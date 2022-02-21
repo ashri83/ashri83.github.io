@@ -11,6 +11,9 @@
     <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -48,7 +51,7 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/saya.jpg" alt="Ashri Riswandi" width="150" class="rounded-circle img-thumbnail" />
+      <img src="img/saya_ai.jpg" alt="Ashri Riswandi" width="150" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Ashri Riswandi Djamil</h1>
       <p class="lead">Teacher | Content Writer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -70,10 +73,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>Ini adalah website portfolio pribadi Ashri Riswandi Djamil. Berisi profil pribadi dan tempat karya-karya tak diketahui oleh kebanyakan orang. Namun tidak mengurangi semangat saya dalam ber karya</p>
           </div>
-          <div class="col-4">
+          <div class="col-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Profesi harian saya sebagai pengajar di sekolah menengah pertama (SMP) salah satu yang swasta di Kota Depok. Dan juga penulis konten di blog pribadi dan sebuah platform blogging.</p>
           </div>
         </div>
@@ -98,7 +101,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="img/project/1.jpg" class="card-img-top" alt="project 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -106,7 +109,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="50">
               <img src="img/project/2.jpg" class="card-img-top" alt="project 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -114,7 +117,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="img/project/3.jpg" class="card-img-top" alt="project 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -122,7 +125,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="150">
               <img src="img/project/4.jpg" class="card-img-top" alt="project 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -130,7 +133,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="img/project/5.jpg" class="card-img-top" alt="project 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -203,6 +206,13 @@
     </footer>
     <!-- Akhir footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbwbVuJkbI1ShosNDBCIzPIJqDtsjA8hY4JLGZIvmYtHO1feLnpcH0gVvTAs7xUwbFAS4A/exec';
